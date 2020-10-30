@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>El clima</title>
+  </head>
+  <body>
+    <h2>Ciudad: {{ city_weather.city }} </h2>
+    <h2>temperatura: {{ city_weather.temperature }}</h2>
+    <h2>Cielo: {{ city_weather.description }}</h2>
+    <img src="http://openweathermap.org/img/w/{{ city_weather.icon }}.png" alt="image">
+  </body>
+</html>
